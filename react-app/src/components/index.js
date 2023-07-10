@@ -1,0 +1,5 @@
+export { default as Header } from "./Header"
+export { default as Area } from "./Area"
+export { default as Details } from "./Details"
+export { default as Map } from "./Map"
+export { default as Legend } from "./Legend"
