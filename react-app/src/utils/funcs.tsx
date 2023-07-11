@@ -1,10 +1,9 @@
-import { airPollutant } from "../types";
-import { airPollutants } from "./vars";
+import React from 'react'
 
-const mapAirPollutants = (key: keyof airPollutant) => {
-    return <ul style={{ margin: 0, padding: 0 }}>{airPollutants.map((item) => {
-      return <li key={item[key]} style={{ listStyle: "none", display: "inline", margin: "6px" }}>{item[key]}</li>;
-    })}</ul>
-  }
+function funcs() {
+  return (
+    <div>funcs</div>
+  )
+}
 
-export {mapAirPollutants}
+export default funcs
