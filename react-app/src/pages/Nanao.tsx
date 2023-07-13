@@ -5,7 +5,7 @@ import Notes from '../components/Notes';
 
 function Nanao() {
     return (
-        <body className="bg-blue-400 px-[10%] py-[4%] min-h-screen">
+        <body className="bg-blue-500 px-[10%] py-[4%] xl:p-14  min-h-screen">
             <Header airPollutants={airPollutants} />
             <div className='grid-container'>
                 <Legend className='item-a pb-0 my-2 md:mx-1' />
