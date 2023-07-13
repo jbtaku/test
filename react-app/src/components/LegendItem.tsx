@@ -8,7 +8,7 @@ type Props = {
 function LegendItem(props:Props) {
     return (
         <div className='flex items-center'>
-            <div className= {props.bg + ' p-2 m-2'}></div><p>{props.text}</p>
+            <div className= {props.bg + ' p-2 m-1'}></div><p>{props.text}</p>
         </div>
     )
 }
