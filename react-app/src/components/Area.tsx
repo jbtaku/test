@@ -8,7 +8,7 @@ type Props = {
 
 function Area({ className, name }: Props) {
   return (
-    <div className={className + ' bg-blue-500 rounded-md flex flex-col justify-center'}>
+    <div className={className + ' bg-blue-500 rounded-md flex flex-col justify-center p-2'}>
       <div className='flex items-center justify-center'>
         <p className='text-white text-xl font-bold my-[2px]'>{name}</p>
       </div>
